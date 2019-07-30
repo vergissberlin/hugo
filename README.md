@@ -1,6 +1,6 @@
 # hugo
 
-> Slim alpine image with hugo inside and nothing more!
+> Slim alpine image with hugo and git inside and nothing more!
 
 ## Usage
 

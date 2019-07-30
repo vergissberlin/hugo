@@ -6,7 +6,7 @@ ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 # Install Hugo
 RUN set -x && \
-  apk add --update wget ca-certificates && \
+  apk add --update wget ca-certificates git && \
   wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
   tar xzf ${HUGO_BINARY} && \
   rm -r ${HUGO_BINARY} && \
