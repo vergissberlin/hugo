@@ -1,4 +1,4 @@
-![Hugo version](https://img.shields.io/badge/hugo%20version-0.56.0-informational)
+![Hugo version](https://img.shields.io/badge/hugo%20version-0.56.0-informational?style=flat-square)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/vergissberlin/hugo?style=flat-square)
 ![Docker Automated build](https://img.shields.io/docker/automated/vergissberlin/hugo?style=flat-square)
 ![Docker Pulls](https://img.shields.io/docker/pulls/vergissberlin/hugo?style=flat-square)
