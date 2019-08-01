@@ -33,3 +33,7 @@ COPY --from=build /build/public /var/www/html
 
 WORKDIR /var/www/html
 ```
+
+## Contribute
+
+1. Build locally `docker build -t vergissberlin/hugo .`
