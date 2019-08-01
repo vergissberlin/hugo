@@ -37,3 +37,5 @@ WORKDIR /var/www/html
 ## Contribute
 
 1. Build locally `docker build -t vergissberlin/hugo .`
+2. Build a specific version `docker build -t vergissberlin/hugo:0.56.0 --build-arg HUGO_VERSION=0.56.0 .`
+3. Push your version `docker push vergissberlin/hugo:0.56.0`
